@@ -40,7 +40,7 @@ $config = array();
 $fm = Fm::app()->getInstance($config);
 
 // example to setup files root folder
-//$fm->setFileRoot('userfiles', true);
+$fm->setFileRoot('Offices', false);
 
 // example to set list of allowed actions
 //$fm->setAllowedActions(["select", "move"]);

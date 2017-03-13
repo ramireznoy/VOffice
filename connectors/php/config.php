@@ -49,7 +49,7 @@ $config = [
          * Set value to "false" in case the `fileRoot` folder located outside server root folder.
          * If `fileRoot` options is set to "false", `serverRoot` value is ignored - always "true".
          */
-        "serverRoot" => false,
+        "serverRoot" => true,
         /**
          * Default value "false". Path to the user storage folder.
          * By default the application will determine the path itself based on $_SERVER['DOCUMENT_ROOT'].
@@ -57,7 +57,7 @@ $config = [
          * - absolute path in case `serverRoot` set to "false", e.g. "/var/www/html/filemanager/userfiles/"
          * - relative path in case `serverRoot` set to "true", e.g. "/filemanager/userfiles/"
          */
-        "fileRoot" => "/Offices",
+        "fileRoot" => false,
         /**
          * Format of the date to display. See http://www.php.net/manual/en/function.date.php
          */
@@ -78,18 +78,6 @@ $config = [
          * For the full list of capabilities @see BaseFilemanager::actions_list
          */
         "capabilities" => false,
-        "s3" => [
-            "settings" => [
-                'region' => 'us-west-2',
-                'bucket' => 's3-houzzland-bucket',
-                'credentials' => [
-                    'key' => 'AKIAJFXOJKRMNP4E7AEA',
-                    'secret' => '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',
-                ],
-                'defaultAcl' => 'public-read',
-                'debug' => false,
-            ],
-        ],
     ],
     /**
      * Security section

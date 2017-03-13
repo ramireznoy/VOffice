@@ -42,13 +42,13 @@ $s3_config['s3']['allowBulk'] = true;
  ******************************************************************************/
 
 $s3_config['s3']['settings'] = array(
-    'region' => 'your region',
-    'bucket' => 'your aws s3 bucket',
+    'region' => 'us-west-2',
+    'bucket' => 's3-houzzland-bucket',
     'credentials' => array( // Aws\Credentials\CredentialsInterface|array|callable
-        'key' => 'your aws s3 key',
-        'secret' => 'your aws s3 secret',
+        'key' => 'AKIAJFXOJKRMNP4E7AEA',
+        'secret' => 'c9yvjcwCI6QOBZIQfL412+UQErdqXxiOBd5CYcCH',
     ),
-    'defaultAcl' => '',
+    'defaultAcl' => 'public-read',
     //'cdnHostname' => 'http://example.cloudfront.net',
     'debug' => false, // bool|array
 );
