@@ -45,8 +45,8 @@ $s3_config['s3']['settings'] = array(
     'region' => 'us-west-2',
     'bucket' => 's3-houzzland-bucket',
     'credentials' => array( // Aws\Credentials\CredentialsInterface|array|callable
-        'key' => 'AKIAIGQI3HRMNQB35QQQ',//'AKIAJFXOJKRMNP4E7AEA',
-        'secret' => '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',
+        'key' => '',// Use valid credentials,
+        'secret' => '',
     ),
     'defaultAcl' => 'public-read',
     //'cdnHostname' => 'http://example.cloudfront.net',
