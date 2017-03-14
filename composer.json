@@ -1,28 +1,25 @@
 {
-  "name": "servocoder/richfilemanager",
-  "description": "RichFilemanager - highly customizable open-source file manager",
-  "type": "project",
-  "keywords": [
-    "filemanager",
-    "fileupload",
-    "manager",
-    "upload",
-    "file",
-    "rich",
-    "js",
-    "php"
-  ],
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Pavel Solomienko",
-      "email": "servocoder@gmail.com",
-      "homepage": "http://fm.devale.pro",
-      "role": "Developer"
+    "name": "servocoder/richfilemanager",
+    "description": "RichFilemanager - highly customizable open-source file manager",
+    "type": "project",
+    "keywords": [
+        "filemanager",
+        "fileupload",
+        "manager",
+        "upload",
+        "file",
+        "rich",
+        "js",
+        "php"
+    ],
+    "license": "MIT",
+    "authors": [{
+        "name": "Pavel Solomienko",
+        "email": "servocoder@gmail.com",
+        "homepage": "http://fm.devale.pro",
+        "role": "Developer"
+    }],
+    "require": {
+        "php": ">= 5.4.0"
     }
-  ],
-  "require": {
-    "php": ">= 5.4.0",
-    "aws/aws-sdk-php": "^3.24"
-  }
 }
